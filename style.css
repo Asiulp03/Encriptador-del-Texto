@@ -1,0 +1,139 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background: url(/imagenes/colorful-powder-being-thrown-into-the-air-ai-generated-photo.jpg);
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Encabezado */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 70px;
+  height: auto;
+  margin-right: 20px;
+  display: flex;
+}
+
+h1 {
+  font-size: 40px;
+  background-image: linear-gradient(to right, #12d9fd, #ff00f7);
+  -webkit-background-clip: text;
+  color: transparent;
+  text-align: center;
+  margin-top: 0.5em;
+  padding: 0.2em;
+}
+
+/* Entrada de texto */
+input {
+  width: 70%;
+  padding: 70px;
+  margin-bottom: 25px;
+  border-style: double;
+  border-radius: 50px;
+  colo: #0000;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+
+.info-message {
+  color: #000000;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+/* Secciones principales */
+.left-section {
+  float: left;
+  width: 50%;
+  border-radius: 10px;
+  padding: 10px;
+  opacity: 0.7;
+}
+
+.botones {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  margin: 10px;
+}
+
+.right-section {
+  float: right;
+  width: 50%;
+  border-radius: 10px;
+  padding: 3px;
+  transition: 400ms;
+}
+
+/* Código HTML */
+pre {
+  background-color: #d5cdcd;
+  padding: 10px;
+  border-radius: 5px;
+  border: 10cap solid #0d0d0d;
+}
+
+code.language-html {
+  color: #080808;
+}
+
+
+/* Resultado */
+.encryption-result {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Botones */
+button {
+  background-color: #fafafa;
+  color: #000000;
+  border: none;
+  padding: 20px 25px;
+  margin: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: 1s all;
+}
+
+/* Pie de página */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000000;
+  height: 30px;
+}
+
+footer p {
+  margin: 0;
+  line-height: 30px;
+  font-size: 12px;
+  text-align: center;
+}
+
+
+/* Limpiar floats */
+.left-section,
+.right-section {
+  box-sizing: border-box;
+}
+
+main:after {
+  content: "";
+  display: table;
+  clear: both;
+}
